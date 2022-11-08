@@ -1,3 +1,8 @@
+# This is a fork of orignal HTML Canvas Gauges v2.1
+It seems like original developers are refusing to fix bug on this good software.
+So here we go!
+Main purpose here is to fix minor bugs and major stabilitity issues. 
+
 # HTML Canvas Gauges v2.1
 
 [![Build Status](https://travis-ci.org/Mikhus/canvas-gauges.svg?branch=master)](https://travis-ci.org/Mikhus/canvas-gauges) ![Test Coverage](https://rawgit.com/Mikhus/canvas-gauges/master/test-coverage.svg) ![Documentation Coverage](https://rawgit.com/Mikhus/canvas-gauges/master/docs-coverage.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://rawgit.com/Mikhus/canvas-gauges/master/LICENSE) [![run on repl.it](http://repl.it/badge/github/Mikhus/canvas-gauges)](https://repl.it/github/Mikhus/canvas-gauges)
