@@ -8,6 +8,13 @@ Current Status
 - survived 3 day regression test with 100ms update interval  
 - the test was performed using electron but I'm pretty sure it's same as google chrome  
 - for the rest, I'll be testing when I have enough time to do that  
+  
+The list of changes made to the original source is as follows  
+- save/restore hell workaround. I really don't wanna change all the save/restore hell in the original. So a simple trick was added.  
+- change the order of closePath(). I don't know exactly why but the wrong order was causing resource leak in chrome.  
+- animation.frame = null code. The missing code is causing update skipping.
+- animation cancel logic. I really don't understand the original animation cancel logic when new update comes while animation is in progress. You may chose not to adopt my change!  
+  
 
 # HTML Canvas Gauges v2.1
 
