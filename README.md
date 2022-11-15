@@ -1,7 +1,13 @@
 # This is a fork of orignal HTML Canvas Gauges v2.1
-It seems like original developers are refusing to fix bug on this good software.
-So here we go!
-Main purpose here is to fix minor bugs and major stabilitity issues. 
+It seems like original developers are refusing to fix bug on this good software.  
+So here we go!  
+Main purpose here is to fix minor bugs and major stabilitity issues.  
+  
+Current Status  
+- tested only with radial gauge with rotating place, aka, compass  
+- survived 3 day regression test with 100ms update interval  
+- the test was performed using electron but I'm pretty sure it's same as google chrome  
+- for the rest, I'll be testing when I have enough time to do that  
 
 # HTML Canvas Gauges v2.1
 
