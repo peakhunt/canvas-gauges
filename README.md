@@ -15,7 +15,10 @@ The list of changes made to the original source is as follows
 - animation.frame = null code. The missing code is causing update skipping.
 - animation cancel logic. I really don't understand the original animation cancel logic when new update comes while animation is in progress. You may chose not to adopt my change!  
   
-
+the simplest way to try this change is  
+- just install original canvas-gauges  
+- override gauge.min.js
+  
 # HTML Canvas Gauges v2.1
 
 [![Build Status](https://travis-ci.org/Mikhus/canvas-gauges.svg?branch=master)](https://travis-ci.org/Mikhus/canvas-gauges) ![Test Coverage](https://rawgit.com/Mikhus/canvas-gauges/master/test-coverage.svg) ![Documentation Coverage](https://rawgit.com/Mikhus/canvas-gauges/master/docs-coverage.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://rawgit.com/Mikhus/canvas-gauges/master/LICENSE) [![run on repl.it](http://repl.it/badge/github/Mikhus/canvas-gauges)](https://repl.it/github/Mikhus/canvas-gauges)
