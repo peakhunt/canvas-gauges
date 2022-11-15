@@ -4,10 +4,11 @@ So here we go!
 Main purpose here is to fix minor bugs and major stabilitity issues.  
   
 Current Status  
-- tested only with radial gauge with rotating plate, aka, compass  
-- survived 3 day regression test with 100ms update interval  
+- tested with radial gauge with rotating plate, aka, compass. survived 3 day regression test with 100ms update interval  
+- tested with linear gauge. survived more than 12 hour regression test with 100ms update interval  
 - the test was performed using electron but I'm pretty sure it's same as google chrome  
 - for the rest, I'll be testing when I have enough time to do that  
+- for animation cancel logic while animation is in progress, I'll dig dipper when I get a chance. So please don't assume it's correct.  
   
 The list of changes made to the original source is as follows  
 - save/restore hell workaround. I really don't wanna change all the save/restore hell in the original. So a simple trick was added.  
